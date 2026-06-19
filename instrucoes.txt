@@ -1,0 +1,13 @@
+Instruções para os Áudios Personalizados:
+-------------------------------------------
+Para que os áudios reais funcionem localmente no seu computador ou no servidor de desenvolvimento, por favor faça o upload dos seus ficheiros MP3 diretamente nesta pasta usando o explorador de ficheiros à esquerda no AI Studio:
+
+Deverá colocar aqui os seguintes ficheiros com estes nomes exatos (com maiúsculas e minúsculas):
+- Riso01.mp3
+- Riso02.mp3
+- Riso03.mp3
+- Riso04.mp3
+- Riso05.mp3
+- Riso06.mp3
+
+Enquanto os ficheiros não forem colocados aqui, o sistema utilizará de forma inteligente um áudio alternativo online de gargalhada de alta qualidade para garantir que as interações funcionam de imediato!
