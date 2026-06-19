@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Dancing+Script:wght@700&family=Audiowide&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-dancing: "Dancing Script", cursive;
+  --font-audiowide: "Audiowide", sans-serif;
+}
+
+/* Custom styles from original HTML */
+.font-dancing { font-family: 'Dancing Script', cursive; }
+.font-ardestine { font-family: 'Audiowide', sans-serif; }
+
+html {
+  font-size: 15px;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 12.5px; /* Dynamically matches the exact compact proportions and economics of 75% browser zoom */
+  }
+}
+
+body {
+  @apply font-inter bg-gray-100 text-[#091747] antialiased overflow-x-hidden;
+}
+
+/* Scrollbar Hide */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Popover Animation */
+@keyframes duet-pop-in {
+  from { opacity: 0; transform: translateY(-6px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.animate-pop-in {
+  animation: duet-pop-in 140ms ease-out;
+}
+
