@@ -1,0 +1,6 @@
+{
+  "name": "DUET Desportivo",
+  "description": "Uma plataforma desportiva interativa com torneios, apostas e competições em diversas categorias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
